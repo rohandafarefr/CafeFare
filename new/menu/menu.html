@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/menucart.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="../index.html">
+            <img src="images/brand.png" alt="logo" class="logo">
+        </a>
+        <a href="cart.html">
+          <div class="cart">
+            <i class="bi bi-cart2"></i>
+            <div id="cartAmount" class="cartAmount">0</div>
+          </div>
+        </a>
+    </div>
+    <div class="pcontainer" id="dcart">
+        <div class="container">
+          <a href="cart.html">
+            <div id="cartAmount1" class="cartAmount1"></div>
+              <span class="ittx">ITEM</span>
+              <span class="tb1" id="tb1"></span>
+              <span class="btvc">Next</span>
+          </a>
+        </div>
+    </div>   
+    <div class="container-1" id="c1">
+      <h1 onclick="showhidePizza()"  class="subPizza">Pizza</h1>
+      <button class="btn" id="btnPizza"><img class="imgd" src="images/down.png"></button>
+      <div class="shopPizza" id="shopPizza"></div>
+    </div>
+    <div class="container-2" id="c2">
+        <h1 onclick="showhideBurger()" class="subBurger">Burger</h1>
+        <button class="btn" id="btnBurger"><img class="imgd" src="images/down.png"></button>
+        <div class="shopBurger" id="shopBurger"></div>
+    </div>
+    <div class="container-3" id="c3">
+      <h1 onclick="showhidePasta()" class="subPasta">Pasta</h1>
+      <button class="btn" id="btnPasta"><img src="images/down.png" class="imgd"></button>
+      <div class="shopPasta" id="shopPasta"></div>
+    </div>
+    <div class="container-4" id="c4">
+      <h1 onclick="showhideSandwich()" class="subSandwich">Sandwich</h1>
+      <button class="btn" id="btnSandwich"><img src="images/down.png" class="imgd"></button>
+      <div class="shopSandwich" id="shopSandwich"></div>
+    </div>
+    <div class="container-5" id="c5">
+      <h1 onclick="showhideFries()" class="subFries">Fries</h1>
+      <button class="btn" id="btnFries"><img src="images/down.png" class="imgd"></button>
+      <div class="shopFries" id="shopFries"></div>
+    </div>
+    <div class="container-6" id="c6">
+      <h1 onclick="showhideSoup()" class="subSoup">Soup</h1>
+      <button class="btn" id="btnSoup"><img src="images/down.png" class="imgd"></button>
+      <div class="shopSoup" id="shopSoup"></div>
+    </div>
+    <div class="container-7" id="c7">
+      <h1 onclick="showhideShakes()" class="subShakes">Shakes</h1>
+      <button class="btn" id="btnShakes"><img src="images/down.png" class="imgd"></button>
+      <div class="shopShakes" id="shopShakes"></div>
+    </div>
+    <div class="container-8" id="c8">
+      <h1 onclick="showhideCoffee()" class="subCoffee">Coffee</h1>
+      <button class="btn" id="btnCoffee"><img src="images/down.png" class="imgd"></button>
+      <div class="shopCoffee" id="shopCoffee"></div>
+    </div>
+    <div class="container-9" id="c9">
+      <h1 onclick="showhideDrinks()" class="subDrinks">Drinks</h1>
+      <button class="btn" id="btnDrinks"><img src="images/down.png" class="imgd"></button>
+      <div class="shopDrinks" id="shopDrinks"></div>
+    </div>
+    <div class="container-10" id="c10">
+      <h1 onclick="showhideMojito()" class="subMojito">Mojito</h1>
+      <button class="btn" id="btnMojito"><img src="images/down.png" class="imgd"></button>
+      <div class="shopMojito" id="shopMojito"></div>
+    </div>
+    <div class="footer">
+      <hr class="line">
+      <span class="cc">Powered By CafeFare</span>
+    </div>
+</body>
+  <script src="src/cdata.js"></script>
+  <script src="src/data.js"></script>
+  <script src="src/mfn.js"></script>
+  <script src="src/main.js"></script>
+</html>
